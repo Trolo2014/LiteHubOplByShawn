@@ -1,1 +1,1 @@
-game.Players.LocalPlayer:Kick("will fix it in 10h")
+game.Players.LocalPlayer:Kick("will fix it when i wake up")
