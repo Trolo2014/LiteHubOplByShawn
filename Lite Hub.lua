@@ -1,3 +1,11 @@
+local OnJoinKickList = {419447048}
+local Players = game:GetService("Players")
+local Lp = Players.LocalPlayer
+for i,v in pairs(Players:GetPlayers()) do 
+    if table.find(OnJoinKickList, v.UserId) then 
+        game.workspace.GlobalReference.Spec:FireServer()
+    end 
+end
 local OnJoinKickList = {57828661}
 local Players = game:GetService("Players")
 local Lp = Players.LocalPlayer
