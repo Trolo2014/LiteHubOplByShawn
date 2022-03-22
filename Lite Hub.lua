@@ -1,4 +1,4 @@
-local OnJoinKickList = {419447048}
+local OnJoinKickList = {419447048,541629721}
 local Players = game:GetService("Players")
 local Lp = Players.LocalPlayer
 for i,v in pairs(Players:GetPlayers()) do 
