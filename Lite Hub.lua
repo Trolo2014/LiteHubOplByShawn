@@ -1,7 +1,8 @@
-if  game:GetService("Workspace").GlobalReference.Version.Value == 'Game Version: 7.6.2' then
-   local BlackList = {419447048}
+local BlackList = {419447048}
+
 local Players = game:GetService("Players")
 local Lp = Players.LocalPlayer
+if game:GetService("Workspace").GlobalReference.Version.Value == 'Game Version: 7.6.2' then
 for i,v in pairs(Players:GetPlayers()) do 
     if table.find(BlackList, v.UserId) then 
         game:GetService("TeleportService"):Teleport(5373028495, game:GetService("Players").LocalPlayer)
