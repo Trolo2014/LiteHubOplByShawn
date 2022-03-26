@@ -10,7 +10,7 @@ end
 wait(1.2)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Lite Hub"; -- the title (ofc)
-Text = "ur mum have nice ass"; -- what the text says (ofc)
+Text = "version 1.1"; -- what the text says (ofc)
 --Icon = "rbxassetid://57254792"; -- the image if u want. 
 Duration = 3; -- how long the notification should in secounds
 })
