@@ -17,7 +17,7 @@ Duration = 3; -- how long the notification should in secounds
 wait(4)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Lite Hub"; -- the title (ofc)
-Text = "Version 1.0"; -- what the text says (ofc)
+Text = "Version 1.1"; -- what the text says (ofc)
 --Icon = "rbxassetid://57254792"; -- the image if u want. 
 Duration = 3; -- how long the notification should in secounds
 })
