@@ -1,4 +1,4 @@
-local BlackList = {419447048,963919381}
+local BlackList = {419447048}
 
 local Players = game:GetService("Players")
 local Lp = Players.LocalPlayer
