@@ -8,15 +8,15 @@ for i,v in pairs(Players:GetPlayers()) do
     end 
 end
 game.StarterGui:SetCore("SendNotification", {
-Title = "Lite Hub"; -- the title (ofc)
-Text = "The Real Final Update no more shit is geting added"; -- what the text says (ofc)
+Title = "Saiko Hub"; -- the title (ofc)
+Text = "1.1"; -- what the text says (ofc)
 --Icon = "rbxassetid://57254792"; -- the image if u want. 
 Duration = 3; -- how long the notification should in secounds
 })
 wait(4)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Lite Hub"; -- the title (ofc)
-Text = "Discontinued idgaf anymore bout it fuck this hub xd"; -- what the text says (ofc)
+Text = "Updates will Sometimes"; -- what the text says (ofc)
 --Icon = "rbxassetid://57254792"; -- the image if u want. 
 Duration = 3; -- how long the notification should in secounds
 })
