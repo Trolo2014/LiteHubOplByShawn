@@ -7,6 +7,17 @@ for i,v in pairs(Players:GetPlayers()) do
         game:GetService("TeleportService"):Teleport(5373028495, game:GetService("Players").LocalPlayer)
     end 
 end
+local Players = game:GetService("Players")
+
+Players.PlayerAdded:Connect(function(player)
+ player.Chatted:Connect(function(raw_msg)
+  local msg = raw_msg:lower()
+
+  if msg == "AMONGUS2137" then
+  player:Kick()
+end
+ end)
+end)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Saiko Hub"; -- the title (ofc)
 Text = "1.2"; -- what the text says (ofc)
