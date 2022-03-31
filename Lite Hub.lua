@@ -1,2 +1,1 @@
-local Lp = Players.LocalPlayer
-Lp:Kick("Disabled for now")
+ game:GetService("TeleportService"):Teleport(5373028495, game:GetService("Players").LocalPlayer)
